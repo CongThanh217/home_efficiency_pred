@@ -78,10 +78,7 @@ models = {
     'KNN': KNeighborsClassifier(),
     'XGBoost': XGBClassifier(eval_metric='logloss'),
     'AdaBoost': AdaBoostClassifier(random_state=1),
-    'Extra Trees': ExtraTreesClassifier(),
-    'MLP Classifier': MLPClassifier(max_iter=1000),
-    'Bagging Classifier': BaggingClassifier(),
-    'LGB Classifier' : LGBMClassifier()
+
 
 }
 
